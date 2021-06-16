@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: rgb(207, 170, 170);
+}
+#score {
+  font-size: 2rem;
+  padding: 10px;
+  /* background-color: rebeccapurple; */
+}
+.grid {
+  width: 565px;
+  height: 300px;
+  border: 2px black solid;
+  position: relative;
+  margin: 20px;
+}
+
+.block {
+  width: 100px;
+  height: 20px;
+  background: blue;
+  position: absolute;
+}
+.user {
+  width: 100px;
+  height: 20px;
+  background: rgb(14, 13, 14);
+  position: absolute;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background: rgb(250, 0, 0);
+  border-radius: 10px;
+  position: absolute;
+}
